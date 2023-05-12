@@ -1,0 +1,50 @@
+    body,h1,h5 {font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    .bgimg {
+    background-image: url(imge/restaurant\ chef\ cooking.webp);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+    
+.bgimg {
+    position: relative;
+    right: 0px;
+}
+    .w3-black, .w3-hover-black:hover {
+        color: #fff !important;
+    }
+    #log{
+        position: absolute;
+    left: 1375px;
+    top: 31px;
+    }
+    .w3-jumbo img{
+        
+    border-radius: 50%;
+    width: 224px;
+}
+    .w3-black, .w3-hover-black:hover {
+        color: #fff!important;
+        background-color: #201919 !important;
+    }
+    h1 {
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .price  h5 {
+        font-family:"Times New Roman", Times, serif;
+    }
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+    #log {
+    position:unset;
+    }
+  }
